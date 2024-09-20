@@ -18,9 +18,9 @@ class Vendedor(Empregado):
     def valores(self):
         return f'{self.nome} recebe: {self.salario_base + (self.salario_base*0.02)}'
 
-barto = Gerente('Bartolomeu Nagano', 3000, 100)
+barto = Gerente('Bartolomeu Nagano', 3000)
 print(barto.valores())
-cj = Vendedor('Christopher Jonny', 1500,0.5,1000)
+cj = Vendedor('Christopher Jonny', 1500)
 print(cj.valores())
 
 
